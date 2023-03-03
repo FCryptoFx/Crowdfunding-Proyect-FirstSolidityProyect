@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "addressToAmountFunder",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fund",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FundMe.sol": "FundMe"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FundMe.sol": {
+			"keccak256": "0xb14c5480d5d2fe31e0b33d0b0bf351d7713f43426f2bebbb2dd1139816da1cf3",
+			"urls": [
+				"bzz-raw://6ffd89b4c621fbac7a048c99949e1a71962469f3ffddd2d5054d84172bdcf021",
+				"dweb:/ipfs/QmS3rTc8srQTxYsTinhcrtUomPcCkGXbZ1eHhLvBkX6RSt"
+			]
+		}
+	},
+	"version": 1
+}
