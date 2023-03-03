@@ -1,9 +1,9 @@
 //SPDX-License-Identifier: MIT
 
-pragma solidity ^0.6.0;
-
 /*El objetivo de este contrato es permitir que a través de StorageFactory podamos hacer una "fabrica" que cree contratos
 de tipo SimpleStorage*/
+
+pragma solidity ^0.6.0;
 
 //Importamos el contrato SimpleStorage para poder usarlo en este
 import "./SimpleStorage.sol"; //Con el "./" indicamos que el smart contract que estamos importando se encuentra en la misma carpeta.
